@@ -1,0 +1,27 @@
+{
+    "name": "2up/boilerplate",
+    "description": "Estrutura padrão de landing page",
+    "authors": [
+        {
+            "name": "Renato Santos",
+            "email": "renato@2up.com.br"
+        },
+        {
+            "name": "Renan Morais",
+            "email": "renan@2up.com.br"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.30",
+        "rakit/validation": "^1.2",
+        "firebase/php-jwt": "^5.0",
+        "phpmailer/phpmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Core\\": "core/",
+            "App\\Model\\": "model/",
+            "App\\Middleware\\": "middleware/"
+        }
+    }
+}

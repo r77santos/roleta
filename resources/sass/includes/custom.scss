@@ -1,0 +1,38 @@
+@import "./vars";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/nav";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/_tables";
+// @import "~bootstrap/scss/modal";
+// @import "~bootstrap/scss/close";
+@import "~bootstrap/scss/spinners";
+@import "~bootstrap/scss/utilities/display";
+@import "~bootstrap/scss/utilities/flex";
+@import "~bootstrap/scss/utilities/spacing";
+@import "~bootstrap/scss/utilities/screenreaders";
+@import "~bootstrap/scss/utilities/sizing";
+@import "~bootstrap/scss/utilities/text";
+.img-fluid{
+	max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6, p, label{
+    margin-bottom: 0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'ProximaNova-Bold', sans-serif;
+}
+*{
+    font-family: 'ProximaNova-Regular', sans-serif;
+}
+ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: map-get($theme-colors, "secondary");
+}

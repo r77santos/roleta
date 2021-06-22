@@ -1,0 +1,21 @@
+@import '../includes/vars';
+body{
+    overflow: hidden;
+    #preloader{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color :map-get($theme-colors, "secondary");
+        z-index: 998;
+        img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 999;
+            max-width: 100%;
+        }
+    }
+}

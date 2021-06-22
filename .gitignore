@@ -1,0 +1,6 @@
+material
+app/vendor
+public/js/*
+public/css/*
+node_modules
+app/storage/*

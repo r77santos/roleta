@@ -1,0 +1,26 @@
+@import 'includes/custom', 'includes/fonts';
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: darken(map-get($colors, "white"), 10%);
+  &:hover {
+    background: darken(map-get($colors, "white"), 30%);
+  }
+}
+::selection{
+  background: map-get($colors, "white");
+  color: map-get($colors, "white");
+}
+section#banner{
+  background-image: url('../img/banner.jpg');
+}
+section#zebra{
+  background-image: url('../img/bg.png');
+  #box{
+      background-image: url('../img/box.png');
+      .item{
+          background-image: url('../img/item.png');
+      }
+  }
+}
